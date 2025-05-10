@@ -1,0 +1,97 @@
+body{
+    background-color: rgba(25,57,138,255);
+}
+
+#logo{
+    width:180px;
+    height:180px;
+}
+.box{
+    position: absolute;
+    top:0lvh;
+    left: 43lvh;
+    width:800px;
+    height:400px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap:30px;
+}
+#csk-logo{
+    width:240px;
+    height:198px;
+}
+#csk-logo:hover{
+    transform: scale(1.1);
+    transition:0.5s;
+}
+#rcb-logo{
+    width:133.3px;
+    height:189.7px;
+}
+#rcb-logo:hover{
+    transform: scale(1.1);
+    transition:0.5s;
+}
+#vs-logo{
+    width: 250px;
+    height: 250px;
+}
+#csk-btn{
+    width:120px;
+    height:50px;
+    border: none;
+    border-radius: 50px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FFEA00;
+    color:  rgba(25,57,138,255);
+}
+.csk-button{
+    position: absolute;
+    top:65lvh;
+    left:65lvh;
+}
+#csk-btn:hover{
+    transform: scale(1.1);
+    transition:0.5s;
+    box-shadow: 0 8px 16px rgba(255, 234, 0, 0.5);
+}
+#rcb-btn{
+    width:120px;
+    height:50px;
+    border: none;
+    border-radius: 50px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(236,28,36);
+    color:  black;
+}
+#rcb-btn:hover{
+    transform: scale(1.1);
+    transition:0.5s;
+    box-shadow: 0 8px 16px rgba(236, 28, 36, 0.5)
+}
+.rcb-button:hover{
+    transform: scale(1.1);
+    transition:0.5s;
+}
+.rcb-button{
+    position: absolute;
+    top:65lvh;
+    left:128lvh;
+}
+.score{
+    position: absolute;
+    top: 45lvh;
+    left: 57lvh;
+    width: 95lvh;
+    height: 20lvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    column-gap: 45lvh;  
+}
